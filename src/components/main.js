@@ -4,6 +4,7 @@ import LandingPage from './landingpage';
 import Contact from './contact';
 import Projects from './projects'
 import Resume from './resume';
+import ReactDOM from 'react-dom';
 
 const Main = () => (
   <Switch>
@@ -13,4 +14,5 @@ const Main = () => (
   <Route path="/resume" component={Resume} />
   </Switch>
 )
+
 export default Main;
